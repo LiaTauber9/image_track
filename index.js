@@ -25,7 +25,6 @@ window.onmousemove = e => {
               duration: 1200,
               fill: "forwards"
             });
-    //   image.style.objectPosition = `${nextPercentage +100}% 50%`;
     }
 
     track.animate(
@@ -35,8 +34,6 @@ window.onmousemove = e => {
           fill: "forwards"
         }
     );
-
-    // track.style.transform = `translate(${nextPercentage}%, -50%)`;
 }
 
 window.onmouseup = e => {
